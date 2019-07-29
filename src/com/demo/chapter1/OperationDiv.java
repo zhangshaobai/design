@@ -13,11 +13,10 @@ public class OperationDiv extends Operation {
     @Override
     public double getResult() {
         double result = 0;
-        try{
-            result = this.getNumberA() / this.getNumberB();
-        } catch (Exception ex) {
+        if(this.getNumberB() == 0) {
             System.out.println("除数不能为0");
         }
+        result = this.getNumberA() / this.getNumberB();
         return result;
     }
 }

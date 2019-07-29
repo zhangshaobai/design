@@ -9,9 +9,9 @@ package com.demo.chapter1;
 public class Main {
 
     public static void main(String[] args) {
-        Operation operation = OperationFactory.createOperation("+");
+        Operation operation = OperationFactory.createOperation("/");
         operation.setNumberA(12.34);
-        operation.setNumberB(45.67);
+        operation.setNumberB(10);
         System.out.println(operation.getResult());
     }
 }
