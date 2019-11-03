@@ -2,7 +2,6 @@ package com.demo.chapter21;
 
 import com.sun.xml.internal.bind.v2.runtime.unmarshaller.XsiNilLoader;
 
-import static sun.misc.GThreadHelper.lock;
 
 /**
  * @Copyright (C), 2019,蔚商科技
